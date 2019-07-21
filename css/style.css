@@ -21,8 +21,18 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+.h1, .h2, .h3, .h4, .h5, .btn{
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Libre Baskerville", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+p, .p{
+  font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media(max-width: 576px){
+  .team-text{
+    
+  }
+}
 
 .border-2 {
   border-width: 2px; }
@@ -92,7 +102,7 @@ h1, h2, h3, h4, h5,
 .form-control {
   height: 43px;
   border-radius: 30px;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
     border-color: #46ddb0; }
   .form-control:hover, .form-control:active, .form-control:focus {
@@ -572,13 +582,16 @@ h1, h2, h3, h4, h5,
     min-height: 400px;
     height: calc(20vh); }
   .site-blocks-cover h1 {
-    font-size: 125px;
+    font-size: 120px;
     font-weight: 400;
     color: #007bff;
     font-weight: 900; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 4rem; } }
+    @media (max-width: 576px) {
+      .site-blocks-cover h1 {
+        font-size: 3rem; } }   
   .site-blocks-cover p {
     color: white;
     font-size: 1rem;
@@ -1333,9 +1346,10 @@ h1, h2, h3, h4, h5,
   font-size: 1rem !important; }
 
 .text-muted {
-  color: #ccc !important;
-  font-size: 12px;
-  text-transform: uppercase; }
+  font-family: "League Spartan";
+  font: 200;
+  color: #666666 !important;
+  font-size: 12px;}
 
 .how-it-work-item .number {
   width: 50px;
@@ -1708,10 +1722,7 @@ h1, h2, h3, h4, h5,
   right: -10px;
   background: #007bff;
   padding: 20px; }
-  @media (max-width: 991.98px) {
-    .experience {
-      bottom: 0px;
-      right: 0px; } }
+  
   .experience span {
     display: block; }
   .experience .year {
@@ -1726,6 +1737,21 @@ h1, h2, h3, h4, h5,
     color: #fff;
     letter-spacing: .4em;
     text-transform: uppercase; }
+  @media (max-width: 576px) {
+    .experience {
+      padding: 2%;
+      position: absolute;
+    }
+    .experience .year {
+      font-size: 2rem; }
+    .experience .caption{
+      font-size: 0.8rem;
+    } }
+  @media (max-width: 991.98px) {
+    .experience {
+      bottom: 0px;
+      right: 0px; }} 
+  }
 
 .footer-subscribe .btn {
   height: 43px; }
