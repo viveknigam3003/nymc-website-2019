@@ -90,6 +90,10 @@ p, .p{
   font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-bold{
+  font-weight: bold;
+}
+
 .serifp{
   font-family: "Spartan MB Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -107,9 +111,9 @@ p, .p{
 }
 
 div.shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #424242;
+  -webkit-box-shadow: 3px 3px 5px 6px #424242;
+  box-shadow:         3px 3px 5px 6px #424242;
 }
 
 div.card {
