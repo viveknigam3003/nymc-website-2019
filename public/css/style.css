@@ -96,6 +96,8 @@ p, .p{
 
 .serifp{
   font-family: "Spartan MB Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  opacity: 70%;
 }
 
 .serifpr{
